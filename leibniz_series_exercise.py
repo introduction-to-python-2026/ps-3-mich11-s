@@ -5,4 +5,4 @@ def approximate_pi(n_terms):
     nominator = (-1) ** i
     denominator = 2 * i + 1
     approximation_factor = approximation_factor + (nominator / denominator)
-  print(4 * approximation_factor)
+  return(4 * approximation_factor)
